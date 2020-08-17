@@ -1,0 +1,15 @@
+@import "vars";
+@import "_mixins/font-face";
+
+@include font-face($mainFont+"-Black", "../fonts/"+$mainFont+"/"+$mainFont+"-Black/"+$mainFont+"-Black", 900, normal, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-BlackItalic", "../fonts/"+$mainFont+"/"+$mainFont+"-BlackItalic/"+$mainFont+"-BlackItalic", 900, italic, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-Bold", "../fonts/"+$mainFont+"/"+$mainFont+"-Bold/"+$mainFont+"-Bold", bold, normal, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-BoldItalic", "../fonts/"+$mainFont+"/"+$mainFont+"-BoldItalic/"+$mainFont+"-BoldItalic", bold, italic, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-Italic", "../fonts/"+$mainFont+"/"+$mainFont+"-Italic/"+$mainFont+"-Italic", normal, italic, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-Light", "../fonts/"+$mainFont+"/"+$mainFont+"-Light/"+$mainFont+"-Light", 300, normal, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-LightItalic", "../fonts/"+$mainFont+"/"+$mainFont+"-LightItalic/"+$mainFont+"-LightItalic", 300, italic, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-Medium", "../fonts/"+$mainFont+"/"+$mainFont+"-Medium/"+$mainFont+"-Medium", 500, normal, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-MediumItalic", "../fonts/"+$mainFont+"/"+$mainFont+"-MediumItalic/"+$mainFont+"-MediumItalic", 500, italic, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-Regular", "../fonts/"+$mainFont+"/"+$mainFont+"-Regular/"+$mainFont+"-Regular", normal, normal, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-Thin", "../fonts/"+$mainFont+"/"+$mainFont+"-Thin/"+$mainFont+"-Thin", 100, normal, $asset-pipeline: eot woff ttf);
+@include font-face($mainFont+"-ThinItalic", "../fonts/"+$mainFont+"/"+$mainFont+"-ThinItalic/"+$mainFont+"-ThinItalic", 100, italic, $asset-pipeline: eot woff ttf);
